@@ -59,4 +59,4 @@ for d in directories:
 print('file count: ',len(image_files))
 for f in image_files:
     print(f)
-    # os.remove(f)
+    os.remove(f)
